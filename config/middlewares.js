@@ -12,7 +12,7 @@ module.exports = [
   {
       name: 'strapi::cors',
       config: {
-          origin: ['*'],
+          origin: ['https://mjtbkh.github.io', 'http://localhost:3000'],
           headers: ['*'],
           credentials: true,
       },
